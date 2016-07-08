@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gb2312" ?>
+
+<root>
+
+<group name="今日新服" groupid="0" ClientType="0" tip="">
+	<server name="决战四海" ip="42.62.100.8" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "32" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="1"/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid="" serverlevel="255" tip=""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid="" serverlevel="255" tip=""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid="" serverlevel="255" tip=""/>
+</group>
+
+<group name="电信大区" groupid = "1" ClientType="0">
+	<server name="决战四海" ip="42.62.100.8" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "32" serverlevel = "0" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="1"/>
+	<server name="横扫千军" ip="42.62.97.131" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "31" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="谁与争锋" ip="42.62.100.7" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "30" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="风云再起" ip="42.62.97.132" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "28" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="战无不胜" ip="121.43.164.106" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "27" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="3"/>
+	<server name="烈血" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "神域合入" weight = "0" NetAreaType = "2" BusyDegree="3"/>
+</group>
+    
+<group name="双线大区" groupid = "2" ClientType="0">
+	<server name="决战四海" ip="42.62.100.8" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "32" serverlevel = "0" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="1"/>
+	<server name="横扫千军" ip="42.62.97.131" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "31" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+    <server name="谁与争锋" ip="42.62.100.7" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "30" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="风云再起" ip="42.62.97.132" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "28" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="战无不胜" ip="121.43.164.106" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "27" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="3"/>
+	<server name="战神" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "合入烈血" weight = "0" NetAreaType = "1" BusyDegree="3"/>
+	<server name="爱琴海岸" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "合入神域" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="烈血" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "神域合入" weight = "0" NetAreaType = "2" BusyDegree="3"/>
+	<server name="神域" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "合入烈血" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="战歌" ip="121.43.191.143" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "17" serverlevel = "255" tip = "合入荣耀" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="盛世" ip="121.43.191.143" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "17" serverlevel = "255" tip = "合入荣耀" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid = "" serverlevel = "255" tip = ""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid = "" serverlevel = "255" tip = ""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid = "" serverlevel = "255" tip = ""/>
+	<server name="荣耀" ip="121.43.191.143" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "17" serverlevel = "255" tip = "盛世、战歌合入" weight = "6" NetAreaType = "0" BusyDegree="3"/>
+</group>
+
+
+
+<group name="抢注服务器" groupid="0" ClientType="1" tip="">
+	<server name="决战四海" ip="42.62.100.8" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "32" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="0"/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid="" serverlevel="255" tip=""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid="" serverlevel="255" tip=""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid="" serverlevel="255" tip=""/>
+</group>
+    
+<group name="电信大区" groupid = "1" ClientType="1">
+	<server name="决战四海" ip="42.62.100.8" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "32" serverlevel = "0" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="0"/>
+	<server name="横扫千军" ip="42.62.97.131" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "31" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="谁与争锋" ip="42.62.100.7" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "30" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="风云再起" ip="42.62.97.132" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "28" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="战无不胜" ip="121.43.164.106" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "27" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="3"/>
+	<server name="烈血" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "神域合入" weight = "0" NetAreaType = "2" BusyDegree="3"/>
+</group>
+    
+<group name="双线大区" groupid = "2" ClientType="1">
+	<server name="决战四海" ip="42.62.100.8" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "32" serverlevel = "0" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="0"/>
+	<server name="横扫千军" ip="42.62.97.131" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "31" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="谁与争锋" ip="42.62.100.7" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "30" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="风云再起" ip="42.62.97.132" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="42.62.100.7" serverid = "28" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="2"/>
+	<server name="战无不胜" ip="121.43.164.106" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "27" serverlevel = "255" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "255" BusyDegree="3"/>
+	<server name="战神" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "合入烈血" weight = "0" NetAreaType = "1" BusyDegree="3"/>
+	<server name="爱琴海岸" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "合入神域" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="烈血" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "神域合入" weight = "0" NetAreaType = "2" BusyDegree="3"/>
+	<server name="神域" ip="121.43.191.144" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "25" serverlevel = "255" tip = "合入烈血" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="战歌" ip="121.43.191.143" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "17" serverlevel = "255" tip = "合入荣耀" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="盛世" ip="121.43.191.143" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "17" serverlevel = "255" tip = "合入荣耀" weight = "4" NetAreaType = "0" BusyDegree="3"/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid = "" serverlevel = "255" tip = ""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid = "" serverlevel = "255" tip = ""/>
+	<server name="" ip="" port="" version="3.01.160" state="" pip="" pport="" cip="42.62.100.7" serverid = "" serverlevel = "255" tip = ""/>
+	<server name="荣耀" ip="121.43.191.143" port="9016" version="3.01.160" state="4" pip="42.62.100.7" pport="9394" cip="121.43.180.182" serverid = "17" serverlevel = "255" tip = "盛世、战歌合入" weight = "6" NetAreaType = "0" BusyDegree="3"/>
+</group>
+
+
+</root>

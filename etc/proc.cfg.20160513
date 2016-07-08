@@ -1,0 +1,161 @@
+#进程,第几组,进程名,所在服务器,所在服务器IP,进程所在目录,开启进程脚本,进程日志,进程telnet端口
+#请保证第四列"所在服务器" 与 第五列"所在服务器IP" 唯一对应，否则根据服务器名取IP的时候将会匹配第一个匹配到的IP
+
+############################# 第一组 #####################################
+SCS,1,SCS,GDB,7,/home/AA_server/SCS/,./run_newscs.sh,scs.log,9911
+BLOB,1,BLOB,GDB,7,/home/AA_server/blob/,./BLOB,blob.log,9913
+DBS,1,DBS,GDB,7,/home/AA_server/DBS/,./run_newdbs.sh,dbs.log,9912
+DBM,1,DBM,DBM,12,/home/AA_server/DBM/,./run_newdbm.sh,dbm.log,9914
+CCS,1,CCS,GDB,7,/home/AA_server/CCS/,./run_newccs.sh,ccs.log,9910
+LS,1,LS,LS,11,/home/AA_server/LS/,./run_newls.sh,ls.log,9915
+GS1,1,GS1,LS,11,/home/AA_server/GS1/,taskset -c 1 ./run_newgs.sh,gs.log,9921
+GS2,1,GS2,GS1,1,/home/AA_server/GS2/,taskset -c 1 ./run_newgs.sh,gs.log,9922
+GS3,1,GS3,GS1,1,/home/AA_server/GS3/,taskset -c 2 ./run_newgs.sh,gs.log,9923
+GS4,1,GS4,GS1,1,/home/AA_server/GS4/,taskset -c 3 ./run_newgs.sh,gs.log,9924
+GS5,1,GS5,GS2,2,/home/AA_server/GS5/,taskset -c 1 ./run_newgs.sh,gs.log,9925
+GS6,1,GS6,GS2,2,/home/AA_server/GS6/,taskset -c 2 ./run_newgs.sh,gs.log,9926
+GS7,1,GS7,GS2,2,/home/AA_server/GS7/,taskset -c 3 ./run_newgs.sh,gs.log,9927
+GS8,1,GS8,GS3,3,/home/AA_server/GS8/,taskset -c 1 ./run_newgs.sh,gs.log,9928
+GS9,1,GS9,GS3,3,/home/AA_server/GS9/,taskset -c 2 ./run_newgs.sh,gs.log,9929
+GS10,1,GS10,GS3,3,/home/AA_server/GS10/,taskset -c 3 ./run_newgs.sh,gs.log,9930
+GS11,1,GS11,GS4,4,/home/AA_server/GS11/,taskset -c 1 ./run_newgs.sh,gs.log,9931
+GS12,1,GS12,GS4,4,/home/AA_server/GS12/,taskset -c 2 ./run_newgs.sh,gs.log,9932
+GS13,1,GS13,GS4,4,/home/AA_server/GS13/,taskset -c 3 ./run_newgs.sh,gs.log,9933
+GS14,1,GS14,GS5,5,/home/AA_server/GS14/,taskset -c 1 ./run_newgs.sh,gs.log,9934
+GS15,1,GS15,GS5,5,/home/AA_server/GS15/,taskset -c 2 ./run_newgs.sh,gs.log,9935
+GS16,1,GS16,GS5,5,/home/AA_server/GS16/,taskset -c 3 ./run_newgs.sh,gs.log,9936
+BCS1,1,BCS1,LS,11,/home/AA_server/BCS1/,taskset -c 0 ./run_newbcs.sh,bcs.log,9951
+BCS2,1,BCS2,GS1,1,/home/AA_server/BCS2/,taskset -c 0 ./run_newbcs.sh,bcs.log,9952
+BCS3,1,BCS3,GS2,2,/home/AA_server/BCS3/,taskset -c 0 ./run_newbcs.sh,bcs.log,9953
+BCS4,1,BCS4,GS3,3,/home/AA_server/BCS4/,taskset -c 0 ./run_newbcs.sh,bcs.log,9954
+BCS5,1,BCS5,GS4,4,/home/AA_server/BCS5/,taskset -c 0 ./run_newbcs.sh,bcs.log,9955
+BCS6,1,BCS6,GS5,5,/home/AA_server/BCS6/,taskset -c 0 ./run_newbcs.sh,bcs.log,9956
+MGW1,1,MGW1,LS,11,/home/AA_server/MGW1/,taskset -c 2 ./run_newmgw.sh,mgw.log,9001
+#第二组
+SCS,2,SCS,GDB,8,/home/AA_server2/SCS/,./run_newscs.sh,scs.log,9911
+BLOB,2,BLOB,GDB,8,/home/AA_server2/blob/,./BLOB,blob.log,9913
+DBS,2,DBS,GDB,8,/home/AA_server2/DBS/,./run_newdbs.sh,dbs.log,9912
+DBM,2,DBM,DBM,57,/home/AA_server2/DBM/,./run_newdbm.sh,dbm.log,9914
+CCS,2,CCS,GDB,8,/home/AA_server2/CCS/,./run_newccs.sh,ccs.log,9910
+LS,2,LS,LS,5,/home/AA_server2/LS/,./run_newls.sh,ls.log,9915
+GS1,2,GS1,LS,5,/home/AA_server2/GS1/,taskset -c 1 ./run_newgs.sh,gs.log,9921
+GS2,2,GS2,GS1,4,/home/AA_server2/GS2/,taskset -c 1 ./run_newgs.sh,gs.log,9922
+GS3,2,GS3,GS1,4,/home/AA_server2/GS3/,taskset -c 2 ./run_newgs.sh,gs.log,9923
+GS4,2,GS4,GS1,4,/home/AA_server2/GS4/,taskset -c 3 ./run_newgs.sh,gs.log,9924
+GS5,2,GS5,GS2,11,/home/AA_server2/GS5/,taskset -c 1 ./run_newgs.sh,gs.log,9925
+GS6,2,GS6,GS2,11,/home/AA_server2/GS6/,taskset -c 2 ./run_newgs.sh,gs.log,9926
+GS7,2,GS7,GS2,11,/home/AA_server2/GS7/,taskset -c 3 ./run_newgs.sh,gs.log,9927
+GS8,2,GS8,GS3,1,/home/AA_server2/GS8/,taskset -c 1 ./run_newgs.sh,gs.log,9928
+GS9,2,GS9,GS3,1,/home/AA_server2/GS9/,taskset -c 2 ./run_newgs.sh,gs.log,9929
+GS10,2,GS10,GS3,1,/home/AA_server2/GS10/,taskset -c 3 ./run_newgs.sh,gs.log,9930
+GS11,2,GS11,GS4,2,/home/AA_server2/GS11/,taskset -c 1 ./run_newgs.sh,gs.log,9931
+GS12,2,GS12,GS4,2,/home/AA_server2/GS12/,taskset -c 2 ./run_newgs.sh,gs.log,9932
+GS13,2,GS13,GS4,2,/home/AA_server2/GS13/,taskset -c 3 ./run_newgs.sh,gs.log,9933
+GS14,2,GS14,GS5,3,/home/AA_server2/GS14/,taskset -c 1 ./run_newgs.sh,gs.log,9934
+GS15,2,GS15,GS5,3,/home/AA_server2/GS15/,taskset -c 2 ./run_newgs.sh,gs.log,9935
+GS16,2,GS16,GS5,3,/home/AA_server2/GS16/,taskset -c 3 ./run_newgs.sh,gs.log,9936
+BCS1,2,BCS1,LS,5,/home/AA_server2/BCS1/,taskset -c 0 ./run_newbcs.sh,bcs.log,9951
+BCS2,2,BCS2,GS1,4,/home/AA_server2/BCS2/,taskset -c 0 ./run_newbcs.sh,bcs.log,9952
+BCS3,2,BCS3,GS2,11,/home/AA_server2/BCS3/,taskset -c 0 ./run_newbcs.sh,bcs.log,9953
+BCS4,2,BCS4,GS3,1,/home/AA_server2/BCS4/,taskset -c 0 ./run_newbcs.sh,bcs.log,9954
+BCS5,2,BCS5,GS4,2,/home/AA_server2/BCS5/,taskset -c 0 ./run_newbcs.sh,bcs.log,9955
+BCS6,2,BCS6,GS5,3,/home/AA_server2/BCS6/,taskset -c 0 ./run_newbcs.sh,bcs.log,9956
+MGW1,2,MGW1,LS,5,/home/AA_server2/MGW1/,taskset -c 2 ./run_newmgw.sh,mgw.log,9001
+
+#测试新架构_1_第一组
+
+SCS,3,SCS,GDB,2,/home/AA_server/SCS/,./run_newscs.sh,scs.log,9911
+BLOB,3,BLOB,GDB,2,/home/AA_server/blob/,./BLOB,blob.log,9913
+DBS,3,DBS,GDB,2,/home/AA_server/DBS/,./run_newdbs.sh,dbs.log,9912
+DBM,3,DBM,DBM,3,/home/AA_server/DBM/,./run_newdbm.sh,dbm.log,9914
+CCS,3,CCS,GS1,1,/home/AA_server/CCS/,./run_newccs.sh,ccs.log,9910
+LS,3,LS,LS,1,/home/AA_server/LS/,./run_newls.sh,ls.log,9915
+GS1,3,GS1,LS,1,/home/AA_server/GS1/,taskset -c 2 ./run_newgs.sh,gs.log,9921
+GS2,3,GS2,GS1,1,/home/AA_server/GS2/,taskset -c 4 ./run_newgs.sh,gs.log,9922
+GS3,3,GS3,GS1,1,/home/AA_server/GS3/,taskset -c 5 ./run_newgs.sh,gs.log,9923
+GS4,3,GS4,GS1,1,/home/AA_server/GS4/,taskset -c 6 ./run_newgs.sh,gs.log,9924
+GS5,3,GS5,GS2,1,/home/AA_server/GS5/,taskset -c 8 ./run_newgs.sh,gs.log,9925
+GS6,3,GS6,GS2,1,/home/AA_server/GS6/,taskset -c 9 ./run_newgs.sh,gs.log,9926
+GS7,3,GS7,GS2,1,/home/AA_server/GS7/,taskset -c 10 ./run_newgs.sh,gs.log,9927
+GS8,3,GS8,GS3,1,/home/AA_server/GS8/,taskset -c 12 ./run_newgs.sh,gs.log,9928
+GS9,3,GS9,GS3,1,/home/AA_server/GS9/,taskset -c 13 ./run_newgs.sh,gs.log,9929
+GS10,3,GS10,GS3,1,/home/AA_server/GS10/,taskset -c 14 ./run_newgs.sh,gs.log,9930
+GS11,3,GS11,GS4,1,/home/AA_server/GS11/,taskset -c 16 ./run_newgs.sh,gs.log,9931
+GS12,3,GS12,GS4,1,/home/AA_server/GS12/,taskset -c 17 ./run_newgs.sh,gs.log,9932
+GS13,3,GS13,GS4,1,/home/AA_server/GS13/,taskset -c 18 ./run_newgs.sh,gs.log,9933
+GS14,3,GS14,GS5,1,/home/AA_server/GS14/,taskset -c 20 ./run_newgs.sh,gs.log,9934
+GS15,3,GS15,GS5,1,/home/AA_server/GS15/,taskset -c 21 ./run_newgs.sh,gs.log,9935
+GS16,3,GS16,GS5,1,/home/AA_server/GS16/,taskset -c 22 ./run_newgs.sh,gs.log,9936
+BCS1,3,BCS1,LS,1,/home/AA_server/BCS1/,taskset -c 1 ./run_newbcs.sh,bcs.log,9951
+BCS2,3,BCS2,GS1,1,/home/AA_server/BCS2/,taskset -c 3 ./run_newbcs.sh,bcs.log,9952
+BCS3,3,BCS3,GS2,1,/home/AA_server/BCS3/,taskset -c 7 ./run_newbcs.sh,bcs.log,9953
+BCS4,3,BCS4,GS3,1,/home/AA_server/BCS4/,taskset -c 11 ./run_newbcs.sh,bcs.log,9954
+BCS5,3,BCS5,GS4,1,/home/AA_server/BCS5/,taskset -c 15 ./run_newbcs.sh,bcs.log,9955
+BCS6,3,BCS6,GS5,1,/home/AA_server/BCS6/,taskset -c 19 ./run_newbcs.sh,bcs.log,9956
+MGW1,3,MGW1,LS,1,/home/AA_server/MGW1/,taskset -c 23 ./run_newmgw.sh,mgw.log,9001
+
+#测试新架构_2_第一组
+
+SCS,6,SCS,GDB,12,/home/AA_server/SCS/,./run_newscs.sh,scs.log,9911
+BLOB,6,BLOB,GDB,12,/home/AA_server/blob/,./BLOB,blob.log,9913
+DBS,6,DBS,GDB,12,/home/AA_server/DBS/,./run_newdbs.sh,dbs.log,9912
+DBM,6,DBM,DBM,13,/home/AA_server/DBM/,./run_newdbm.sh,dbm.log,9914
+CCS,6,CCS,GS1,11,/home/AA_server/CCS/,./run_newccs.sh,ccs.log,9910
+LS,6,LS,LS,11,/home/AA_server/LS/,./run_newls.sh,ls.log,9915
+GS1,6,GS1,LS,11,/home/AA_server/GS1/,taskset -c 2 ./run_newgs.sh,gs.log,9921
+GS2,6,GS2,GS1,11,/home/AA_server/GS2/,taskset -c 4 ./run_newgs.sh,gs.log,9922
+GS3,6,GS3,GS1,11,/home/AA_server/GS3/,taskset -c 5 ./run_newgs.sh,gs.log,9923
+GS4,6,GS4,GS1,11,/home/AA_server/GS4/,taskset -c 6 ./run_newgs.sh,gs.log,9924
+GS5,6,GS5,GS2,11,/home/AA_server/GS5/,taskset -c 8 ./run_newgs.sh,gs.log,9925
+GS6,6,GS6,GS2,11,/home/AA_server/GS6/,taskset -c 9 ./run_newgs.sh,gs.log,9926
+GS7,6,GS7,GS2,11,/home/AA_server/GS7/,taskset -c 10 ./run_newgs.sh,gs.log,9927
+GS8,6,GS8,GS3,11,/home/AA_server/GS8/,taskset -c 12 ./run_newgs.sh,gs.log,9928
+GS9,6,GS9,GS3,11,/home/AA_server/GS9/,taskset -c 13 ./run_newgs.sh,gs.log,9929
+GS10,6,GS10,GS3,11,/home/AA_server/GS10/,taskset -c 14 ./run_newgs.sh,gs.log,9930
+GS11,6,GS11,GS4,11,/home/AA_server/GS11/,taskset -c 16 ./run_newgs.sh,gs.log,9931
+GS12,6,GS12,GS4,11,/home/AA_server/GS12/,taskset -c 17 ./run_newgs.sh,gs.log,9932
+GS13,6,GS13,GS4,11,/home/AA_server/GS13/,taskset -c 18 ./run_newgs.sh,gs.log,9933
+GS14,6,GS14,GS5,11,/home/AA_server/GS14/,taskset -c 20 ./run_newgs.sh,gs.log,9934
+GS15,6,GS15,GS5,11,/home/AA_server/GS15/,taskset -c 21 ./run_newgs.sh,gs.log,9935
+GS16,6,GS16,GS5,11,/home/AA_server/GS16/,taskset -c 22 ./run_newgs.sh,gs.log,9936
+BCS1,6,BCS1,LS,11,/home/AA_server/BCS1/,taskset -c 1 ./run_newbcs.sh,bcs.log,9951
+BCS2,6,BCS2,GS1,11,/home/AA_server/BCS2/,taskset -c 3 ./run_newbcs.sh,bcs.log,9952
+BCS3,6,BCS3,GS2,11,/home/AA_server/BCS3/,taskset -c 7 ./run_newbcs.sh,bcs.log,9953
+BCS4,6,BCS4,GS3,11,/home/AA_server/BCS4/,taskset -c 11 ./run_newbcs.sh,bcs.log,9954
+BCS5,6,BCS5,GS4,11,/home/AA_server/BCS5/,taskset -c 15 ./run_newbcs.sh,bcs.log,9955
+BCS6,6,BCS6,GS5,11,/home/AA_server/BCS6/,taskset -c 19 ./run_newbcs.sh,bcs.log,9956
+MGW1,6,MGW1,LS,11,/home/AA_server/MGW1/,taskset -c 23 ./run_newmgw.sh,mgw.log,9001
+
+
+
+#测试新架构_3_第一组
+
+SCS,9,SCS,GDB,22,/home/AA_server/SCS/,./run_newscs.sh,scs.log,9911
+BLOB,9,BLOB,GDB,22,/home/AA_server/blob/,./BLOB,blob.log,9913
+DBS,9,DBS,GDB,22,/home/AA_server/DBS/,./run_newdbs.sh,dbs.log,9912
+DBM,9,DBM,DBM,23,/home/AA_server/DBM/,./run_newdbm.sh,dbm.log,9914
+CCS,9,CCS,GS1,21,/home/AA_server/CCS/,./run_newccs.sh,ccs.log,9910
+LS,9,LS,LS,21,/home/AA_server/LS/,./run_newls.sh,ls.log,9915
+GS1,9,GS1,LS,21,/home/AA_server/GS1/,taskset -c 2 ./run_newgs.sh,gs.log,9921
+GS2,9,GS2,GS1,21,/home/AA_server/GS2/,taskset -c 4 ./run_newgs.sh,gs.log,9922
+GS3,9,GS3,GS1,21,/home/AA_server/GS3/,taskset -c 5 ./run_newgs.sh,gs.log,9923
+GS4,9,GS4,GS1,21,/home/AA_server/GS4/,taskset -c 6 ./run_newgs.sh,gs.log,9924
+GS5,9,GS5,GS2,21,/home/AA_server/GS5/,taskset -c 8 ./run_newgs.sh,gs.log,9925
+GS6,9,GS6,GS2,21,/home/AA_server/GS6/,taskset -c 9 ./run_newgs.sh,gs.log,9926
+GS7,9,GS7,GS2,21,/home/AA_server/GS7/,taskset -c 10 ./run_newgs.sh,gs.log,9927
+GS8,9,GS8,GS3,21,/home/AA_server/GS8/,taskset -c 12 ./run_newgs.sh,gs.log,9928
+GS9,9,GS9,GS3,21,/home/AA_server/GS9/,taskset -c 13 ./run_newgs.sh,gs.log,9929
+GS10,9,GS10,GS3,21,/home/AA_server/GS10/,taskset -c 14 ./run_newgs.sh,gs.log,9930
+GS11,9,GS11,GS4,21,/home/AA_server/GS11/,taskset -c 16 ./run_newgs.sh,gs.log,9931
+GS12,9,GS12,GS4,21,/home/AA_server/GS12/,taskset -c 17 ./run_newgs.sh,gs.log,9932
+GS13,9,GS13,GS4,21,/home/AA_server/GS13/,taskset -c 18 ./run_newgs.sh,gs.log,9933
+GS14,9,GS14,GS5,21,/home/AA_server/GS14/,taskset -c 20 ./run_newgs.sh,gs.log,9934
+GS15,9,GS15,GS5,21,/home/AA_server/GS15/,taskset -c 21 ./run_newgs.sh,gs.log,9935
+GS16,9,GS16,GS5,21,/home/AA_server/GS16/,taskset -c 22 ./run_newgs.sh,gs.log,9936
+BCS1,9,BCS1,LS,21,/home/AA_server/BCS1/,taskset -c 1 ./run_newbcs.sh,bcs.log,9951
+BCS2,9,BCS2,GS1,21,/home/AA_server/BCS2/,taskset -c 3 ./run_newbcs.sh,bcs.log,9952
+BCS3,9,BCS3,GS2,21,/home/AA_server/BCS3/,taskset -c 7 ./run_newbcs.sh,bcs.log,9953
+BCS4,9,BCS4,GS3,21,/home/AA_server/BCS4/,taskset -c 11 ./run_newbcs.sh,bcs.log,9954
+BCS5,9,BCS5,GS4,21,/home/AA_server/BCS5/,taskset -c 15 ./run_newbcs.sh,bcs.log,9955
+BCS6,9,BCS6,GS5,21,/home/AA_server/BCS6/,taskset -c 19 ./run_newbcs.sh,bcs.log,9956
+MGW1,9,MGW1,LS,21,/home/AA_server/MGW1/,taskset -c 23 ./run_newmgw.sh,mgw.log,9001

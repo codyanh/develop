@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<root>
+<group name="新服抢注区" groupid="0" ClientType="0" tip="以下服务器#Y抢先创建角色活动已开启！8月8日19:00正式开服！#W赢飞行坐骑、特效时装、VIP！">
+<server name="烈血" ip="116.204.35.249" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "25" serverlevel = "0" tip = "电信、网通玩家均可进入" weight = "0" NetAreaType = "2"/>
+<server name="战神" ip="175.25.21.40" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "26" serverlevel = "0" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "1"/>
+<server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid="" serverlevel="255" tip=""/>
+<server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid="" serverlevel="255" tip=""/>
+<server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid="" serverlevel="255" tip=""/>
+</group>
+    <group name="电信大区" groupid = "1" ClientType="0">
+	<server name="烈血" ip="116.204.35.249" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "25" serverlevel = "0" tip = "电信、网通玩家均可进入" weight = "0" NetAreaType = "2"/>
+	<server name="爱琴海岸" ip="121.9.232.75" port="9016" version="3.01.078" state="10" pip="113.105.250.219" pport="9394" serverid = "24" serverlevel = "1" tip = "" weight = "4" NetAreaType = "0"/>
+	<server name="情义永恒" ip="219.132.193.10" port="9016" version="3.01.078" state="10" pip="113.105.250.219" pport="9394" serverid = "18" serverlevel = "255" tip = "合入王者归来" weight = "3" NetAreaType = "0"/>
+	<server name="王者归来" ip="219.132.193.10" port="9016" version="3.01.078" state="10" pip="113.105.250.219" pport="9394" serverid = "18" serverlevel = "255" tip = "情义永恒合入" weight = "7" NetAreaType = "0"/>
+    </group>
+    <group name="双线大区" groupid = "2" ClientType="0">
+		<server name="战神" ip="175.25.21.40" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "26" serverlevel = "0" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "1"/>
+        <server name="烈血" ip="116.204.35.249" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "25" serverlevel = "0" tip = "电信、网通玩家均可进入" weight = "0" NetAreaType = "2"/>
+		<server name="神域" ip="42.62.100.22" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "23" serverlevel = "1" tip = "" weight = "4" NetAreaType = "0"/>
+   	    <server name="战歌" ip="42.62.97.165" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "20" serverlevel = "255" tip = "" weight = "4" NetAreaType = "0"/>
+        <server name="盛世" ip="42.62.97.230" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "22" serverlevel = "255" tip = "" weight = "4" NetAreaType = "0"/>
+        <server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid = "" serverlevel = "255" tip = ""/>
+        <server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid = "" serverlevel = "255" tip = ""/>
+        <server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid = "" serverlevel = "255" tip = ""/>
+        <server name="复兴" ip="42.62.97.191" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "17" serverlevel = "255" tip = "合入荣耀" weight = "4" NetAreaType = "0"/>
+        <server name="荣耀" ip="42.62.97.191" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "17" serverlevel = "255" tip = "复兴合入" weight = "6" NetAreaType = "0"/>
+    </group>
+
+
+
+<group name="新服抢注区" groupid="0" ClientType="1" tip="以下服务器#Y抢先创建角色活动已开启！8月8日19:00正式开服！#W赢飞行坐骑、特效时装、VIP！">
+<server name="烈血" ip="116.204.35.249" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "25" serverlevel = "2" tip = "电信、网通玩家均可进入" weight = "0" NetAreaType = "2"/>
+<server name="战神" ip="175.25.21.40" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "26" serverlevel = "2" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "1"/>
+<server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid="" serverlevel="255" tip=""/>
+<server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid="" serverlevel="255" tip=""/>
+<server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid="" serverlevel="255" tip=""/>
+</group>
+    <group name="电信大区" groupid = "1" ClientType="1">
+	<server name="烈血" ip="116.204.35.249" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "25" serverlevel = "2" tip = "电信、网通玩家均可进入" weight = "0" NetAreaType = "2"/>
+	<server name="爱琴海岸" ip="121.9.232.75" port="9016" version="3.01.078" state="10" pip="113.105.250.219" pport="9394" serverid = "24" serverlevel = "1" tip = "" weight = "4"  NetAreaType = "0"/>
+	<server name="情义永恒" ip="219.132.193.10" port="9016" version="3.01.078" state="10" pip="113.105.250.219" pport="9394" serverid = "18" serverlevel = "255" tip = "合入王者归来" weight = "3" NetAreaType = "0"/>
+	<server name="王者归来" ip="219.132.193.10" port="9016" version="3.01.078" state="10" pip="113.105.250.219" pport="9394" serverid = "18" serverlevel = "255" tip = "情义永恒合入" weight = "7" NetAreaType = "0"/>
+    </group>
+    <group name="双线大区" groupid = "2" ClientType="1">
+		<server name="战神" ip="175.25.21.40" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "26" serverlevel = "2" tip = "网通、电信玩家均可进入" weight = "0" NetAreaType = "1"/>
+        <server name="烈血" ip="116.204.35.249" port="9016" version="3.01.078" state="4" pip="42.62.97.219" pport="9394" serverid = "25" serverlevel = "2" tip = "电信、网通玩家均可进入" weight = "0" NetAreaType = "2"/>
+		<server name="神域" ip="42.62.100.22" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "23" serverlevel = "1" tip = "" weight = "4" NetAreaType = "0"/>
+		<server name="战歌" ip="42.62.97.165" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "20" serverlevel = "255" tip = "" weight = "4" NetAreaType = "0"/>
+        <server name="盛世" ip="42.62.97.230" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "22" serverlevel = "255" tip = "" weight = "4" NetAreaType = "0"/>
+        <server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid = "" serverlevel = "255" tip = ""/>
+        <server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid = "" serverlevel = "255" tip = ""/>
+        <server name="" ip="" port="" version="3.01.078" state="" pip="" pport="" serverid = "" serverlevel = "255" tip = ""/>
+        <server name="荣耀" ip="42.62.97.191" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "17" serverlevel = "255" tip = "复兴合入" weight = "6" NetAreaType = "0"/>
+        <server name="复兴" ip="42.62.97.191" port="9016" version="3.01.078" state="10" pip="42.62.97.219" pport="9394" serverid = "17" serverlevel = "255" tip = "合入荣耀" weight = "4" NetAreaType = "0"/>
+    </group>
+</root>

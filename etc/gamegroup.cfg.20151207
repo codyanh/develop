@@ -1,0 +1,12 @@
+#这个是注释，还是中文的
+#服拼音，机柜号，机柜IP段，服名，第几组，该服文件目录，挂载目录，LS端口-用于控制防火墙
+#第一组
+ZhanWuBuSheng,BJBGP21,221,战无不胜,1,/home/AA_server/,/mnt/server/,9016
+RongYao,BJBGP23,223,荣耀,1,/home/AA_server/,/mnt/server/,9016
+ShengShi,BJBGP26,226,盛世,1,/home/AA_server/,/mnt/server/,9016
+FengYunZaiQi,BJBGP43,243,风云再起,1,/home/AA_server/,/mnt/server/,9016
+LieXie,HNBGP12,152,烈血,1,/home/AA_server/,/mnt/server/,9016
+ZhanShen,BJBGP42,242,战神,1,/home/AA_server/,/mnt/server/,9016
+#第二组
+ShenYu_26,BJBGP26,226,神域,2,/home/AA_server2/,/mnt/server2/,9016
+
