@@ -1,0 +1,47 @@
+test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tcp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+echo "cmd_result:`echo $?`"
+
+
+
+Plan your installation, and FAI installs your plan.
+
+Last login: Mon Dec 29 10:22:41 2014 from 192.168.10.81
+test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tcp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+echo "cmd_result:`echo $?`"
+root@HNDX11-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tc p --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+root@HNDX11-LS:~# echo "cmd_result:`echo $?`"
+cmd_result:1
+root@HNDX11-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tcp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+echo "cmd_result:`echo $?`"
+
+
+
+Plan your installation, and FAI installs your plan.
+
+Last login: Sun Jan  4 15:33:21 2015 from global_mon
+root@HNDX11-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tc p --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+root@HNDX11-LS:~# echo "cmd_result:`echo $?`"
+cmd_result:1
+root@HNDX11-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tcp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+echo "cmd_result:`echo $?`"
+
+
+
+Plan your installation, and FAI installs your plan.
+
+Last login: Sun Jan  4 10:12:48 2015 from 192.168.10.82
+root@BJBGP40-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m t cp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+root@BJBGP40-LS:~# echo "cmd_result:`echo $?`"
+cmd_result:1
+root@BJBGP40-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m tcp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+echo "cmd_result:`echo $?`"
+
+
+
+Plan your installation, and FAI installs your plan.
+
+Last login: Tue Dec 23 17:20:33 2014 from global_mon
+root@BJBGP42-LS:~# test $(iptables-save | sed -n "/-A INPUT -i bond1 -p tcp -m t cp --dport 9016 -j ACCEPT/p" | wc -l ) == '1' 
+root@BJBGP42-LS:~# echo "cmd_result:`echo $?`"
+cmd_result:1
+root@BJBGP42-LS:~# 
